@@ -1,14 +1,14 @@
 from flask import Flask,render_template,request,redirect,url_for
-from pymongo import MongoClient
-import time
-from bson.objectid import ObjectId
+# from pymongo import MongoClient
+# import time
+# from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
-client = MongoClient('mongodb://mongo:yEmfwMJ7AZDQWsToN07r@containers-us-west-120.railway.app:5736')
+# client = MongoClient('mongodb://mongo:yEmfwMJ7AZDQWsToN07r@containers-us-west-120.railway.app:5736')
 
-db = client.flask_db
-todos = db.todos
+# db = client.flask_db
+# todos = db.todos
 
 # @app.route('/',methods=['GET','POST'])
 # def home():
